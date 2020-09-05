@@ -1,9 +1,9 @@
-import React, { Component } from 'react';
+import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Verbs from './components/verbs';
-import Cards from './components/Cards';
+// import Cards from './components/Cards';
 function App() {
   return (
     <div className="App min-vh-100">
