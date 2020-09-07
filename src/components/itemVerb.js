@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { Form, Row, Col, Button, Badge, InputGroup, Tooltip, OverlayTrigger } from 'react-bootstrap';
+import React from 'react';
+import { Form, Col, Button, Badge, Tooltip, OverlayTrigger } from 'react-bootstrap';
 
 // const ItemVerb = props => {
 class ItemVerb extends React.Component {
