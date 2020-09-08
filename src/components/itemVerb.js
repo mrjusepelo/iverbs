@@ -27,7 +27,7 @@ class ItemVerb extends React.Component {
     const _translate = form[0];
     const _past = form[1];
     const _participle = form[2];
-debugger
+
     let is_valid = true;
     console.log(verb)
     _translate.setAttribute("isvalid", "false");
@@ -37,7 +37,7 @@ debugger
     _participle.setAttribute("isvalid", "false");
     _participle.setCustomValidity("");
 
-    if(verb.translate.split(",").map(name => name.toLowerCase()).includes(_translate.value.toLowerCase()) === false ){
+    if(verb.translate.split(",").map(name => name.toLowerCase().trim()).includes(_translate.value.toLowerCase()) === false ){
       is_valid = false
       _translate.setAttribute("isvalid", "true");
       _translate.setCustomValidity("Invalid field.");

@@ -2,6 +2,7 @@ import React from 'react';
 import data from './../data';
 import ItemVerb from './itemVerb';
 import {ButtonToolbar, Button, ButtonGroup} from "react-bootstrap"
+import _ from 'lodash';
 // var data = require('json!../data.json');
 
 class Verbs extends React.Component {
@@ -22,7 +23,7 @@ class Verbs extends React.Component {
       return (<ButtonToolbar aria-label="Toolbar with button groups" className="mb-5">
   <ButtonGroup className="mr-2" aria-label="First group">
     <Button>Grupos</Button>
-    <Button onClick={() => this.filterVerbs(1)}>1</Button> <Button onClick={() => this.filterVerbs(2)}>2</Button> <Button>3</Button> <Button>4</Button>
+    <Button onClick={() => this.filterVerbs(1)}>1</Button> <Button onClick={() => this.filterVerbs(2)}>2</Button> <Button onClick={() => this.reorder()}>Reordenar</Button>
   </ButtonGroup>
 </ButtonToolbar>)
 
@@ -32,6 +33,10 @@ class Verbs extends React.Component {
 
   componentDidMount(){
     this.setState({ verbs: this.state.data[this.state.group] || [] });
+
+  }
+  reorder(){
+    this.setState({ verbs: _.shuffle(this.state.verbs) || [] });
 
   }
   filterVerbs(group){
