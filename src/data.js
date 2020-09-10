@@ -22,7 +22,15 @@ const data = [
   { "infinitive": "burst", "past": "burst", "participle": "burst", "translate": "reventar", "group": 2  },
   { "infinitive": "cast", "past": "cast", "participle": "cast", "translate": "reparto, elenco, fundir", "group": 2  },
   { "infinitive": "broadcast", "past": "broadcast", "participle": "broadcast", "translate": "transmitir", "group": 2  },
-  { "infinitive": "forecast", "past": "forecast", "participle": "forecast", "translate": "predecir", "group": 2  }
+  { "infinitive": "forecast", "past": "forecast", "participle": "forecast", "translate": "predecir", "group": 2  },
+  { "infinitive": "keep", "past": "kept", "participle": "kept", "translate": "mantener", "group": 3  },
+  { "infinitive": "sleep", "past": "slept", "participle": "slept", "translate": "dormir", "group": 3  },
+  { "infinitive": "weep", "past": "wept", "participle": "wept", "translate": "llorar, berriar", "group": 3  },
+  { "infinitive": "feel", "past": "felt", "participle": "felt", "translate": "sentir", "group": 3  },
+  { "infinitive": "kneel", "past": "knelt", "participle": "knelt", "translate": "arrodillarse", "group": 3  },
+  { "infinitive": "feed", "past": "fed", "participle": "fed", "translate": "alimentar", "group": 3  },
+  { "infinitive": "bleed", "past": "bled", "participle": "bled", "translate": "sangrar", "group": 3  },
+  { "infinitive": "speed", "past": "sped", "participle": "sped", "translate": "sangrar", "group": 3  }
 
 ]
 
