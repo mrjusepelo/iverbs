@@ -126,19 +126,19 @@ class ItemVerb extends React.Component {
             </OverlayTrigger>
           </Col>
           <Form.Group as={Col} sm="2" controlId="validationCustom03">
-            <Form.Control type="text" placeholder="Set translate" />
+            <Form.Control type="text" placeholder="Set translate" autocomplete="new-password" />
             <Form.Control.Feedback type="invalid">
               Review translate.
             </Form.Control.Feedback>
           </Form.Group>
           <Form.Group as={Col} sm="2" controlId="validationCustom04">
-            <Form.Control type="text" placeholder="Set past" />
+            <Form.Control type="text" placeholder="Set past" autocomplete="new-password" />
             <Form.Control.Feedback type="invalid">
               Review past.
             </Form.Control.Feedback>
           </Form.Group>
           <Form.Group as={Col} sm="2" controlId="validationCustom05">
-            <Form.Control type="text" placeholder="Set participle" />
+            <Form.Control type="text" placeholder="Set participle" autocomplete="new-password" />
             <Form.Control.Feedback type="invalid">
               Review participle.
             </Form.Control.Feedback>

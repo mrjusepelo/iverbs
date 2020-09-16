@@ -30,7 +30,15 @@ const data = [
   { "infinitive": "kneel", "past": "knelt", "participle": "knelt", "translate": "arrodillarse", "group": 3  },
   { "infinitive": "feed", "past": "fed", "participle": "fed", "translate": "alimentar", "group": 3  },
   { "infinitive": "bleed", "past": "bled", "participle": "bled", "translate": "sangrar", "group": 3  },
-  { "infinitive": "speed", "past": "sped", "participle": "sped", "translate": "sangrar", "group": 3  }
+  { "infinitive": "speed", "past": "sped", "participle": "sped", "translate": "velocidad", "group": 3  },
+  { "infinitive": "deal", "past": "dealt", "participle": "dealt", "translate": "negociar, trato", "group": 3  },
+  { "infinitive": "lean", "past": "leant", "participle": "leant", "translate": "inclinar", "group": 3  },
+  { "infinitive": "mean", "past": "meant", "participle": "meant", "translate": "significar", "group": 3  },
+  { "infinitive": "leap", "past": "leapt", "participle": "leapt", "translate": "brincar", "group": 3  },
+  { "infinitive": "dream", "past": "dreamt", "participle": "dreamt", "translate": "soñar", "group": 3  },
+  { "infinitive": "read", "past": "read", "participle": "read", "translate": "leer", "group": 3  },
+  { "infinitive": "hear", "past": "hear", "participle": "hear", "translate": "escuchar", "group": 3  },
+  { "infinitive": "learn", "past": "learnt", "participle": "learnt", "translate": "aprender", "group": 3  }
 
 ]
 
