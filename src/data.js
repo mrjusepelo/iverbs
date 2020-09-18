@@ -28,6 +28,8 @@ const data = [
   { "infinitive": "weep", "past": "wept", "participle": "wept", "translate": "llorar, berriar", "group": 3  },
   { "infinitive": "feel", "past": "felt", "participle": "felt", "translate": "sentir", "group": 3  },
   { "infinitive": "kneel", "past": "knelt", "participle": "knelt", "translate": "arrodillarse", "group": 3  },
+  { "infinitive": "meet", "past": "met", "participle": "met", "translate": "reunir", "group": 3  },
+  { "infinitive": "lead", "past": "led", "participle": "led", "translate": "guiar", "group": 3  },
   { "infinitive": "feed", "past": "fed", "participle": "fed", "translate": "alimentar", "group": 3  },
   { "infinitive": "bleed", "past": "bled", "participle": "bled", "translate": "sangrar", "group": 3  },
   { "infinitive": "speed", "past": "sped", "participle": "sped", "translate": "velocidad", "group": 3  },
@@ -38,7 +40,18 @@ const data = [
   { "infinitive": "dream", "past": "dreamt", "participle": "dreamt", "translate": "soñar", "group": 3  },
   { "infinitive": "read", "past": "read", "participle": "read", "translate": "leer", "group": 3  },
   { "infinitive": "hear", "past": "heard", "participle": "heard", "translate": "escuchar", "group": 3  },
-  { "infinitive": "learn", "past": "learnt", "participle": "learnt", "translate": "aprender", "group": 3  }
+  { "infinitive": "learn", "past": "learnt", "participle": "learnt", "translate": "aprender", "group": 3  },
+  { "infinitive": "find", "past": "found", "participle": "found", "translate": "encontrar", "group": 4  },
+  { "infinitive": "bind", "past": "bound", "participle": "bound", "translate": "atar", "group": 4  },
+  { "infinitive": "grind", "past": "ground", "participle": "ground", "translate": "moler", "group": 4  },
+  { "infinitive": "wind", "past": "wound", "participle": "wround", "translate": "viento", "group": 4  },
+  { "infinitive": "unwind", "past": "unwound", "participle": "unwround", "translate": "relajarse", "group": 4  },
+  { "infinitive": "unbind", "past": "unbound", "participle": "unbround", "translate": "desatar", "group": 4  },
+  { "infinitive": "send", "past": "sent", "participle": "sent", "translate": "desatar", "group": 4  },
+  { "infinitive": "spend", "past": "spent", "participle": "spent", "translate": "gastar", "group": 4  },
+  { "infinitive": "bend", "past": "bent", "participle": "bent", "translate": "doblarse", "group": 4  },
+  { "infinitive": "blend", "past": "blent", "participle": "blent", "translate": "mezclar", "group": 4  },
+  { "infinitive": "lend", "past": "lent", "participle": "lent", "translate": "prestar", "group": 4  }
 
 ]
 

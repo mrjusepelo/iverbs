@@ -34,6 +34,7 @@ class Verbs extends React.Component {
           <Button onClick={() => this.filterVerbs(1)}>1</Button>{" "}
           <Button onClick={() => this.filterVerbs(2)}>2</Button>
           <Button onClick={() => this.filterVerbs(3)}>3</Button>
+          <Button onClick={() => this.filterVerbs(4)}>4</Button>
           <Button onClick={() => this.reorder()}>Reordenar</Button>
           <Button onClick={() => this.setTradePlace()}>Invertir</Button>
         </ButtonGroup>
