@@ -37,7 +37,7 @@ const data = [
   { "infinitive": "leap", "past": "leapt", "participle": "leapt", "translate": "brincar", "group": 3  },
   { "infinitive": "dream", "past": "dreamt", "participle": "dreamt", "translate": "soñar", "group": 3  },
   { "infinitive": "read", "past": "read", "participle": "read", "translate": "leer", "group": 3  },
-  { "infinitive": "hear", "past": "hear", "participle": "hear", "translate": "escuchar", "group": 3  },
+  { "infinitive": "hear", "past": "heard", "participle": "heard", "translate": "escuchar", "group": 3  },
   { "infinitive": "learn", "past": "learnt", "participle": "learnt", "translate": "aprender", "group": 3  }
 
 ]
