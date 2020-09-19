@@ -44,7 +44,7 @@ const data = [
   { "infinitive": "find", "past": "found", "participle": "found", "translate": "encontrar", "group": 4  },
   { "infinitive": "bind", "past": "bound", "participle": "bound", "translate": "atar", "group": 4  },
   { "infinitive": "grind", "past": "ground", "participle": "ground", "translate": "moler", "group": 4  },
-  { "infinitive": "wind", "past": "wound", "participle": "wround", "translate": "viento", "group": 4  },
+  { "infinitive": "wind", "past": "wound", "participle": "wound", "translate": "viento", "group": 4  },
   { "infinitive": "unwind", "past": "unwound", "participle": "unwround", "translate": "relajarse", "group": 4  },
   { "infinitive": "unbind", "past": "unbound", "participle": "unbround", "translate": "desatar", "group": 4  },
   { "infinitive": "send", "past": "sent", "participle": "sent", "translate": "desatar", "group": 4  },
